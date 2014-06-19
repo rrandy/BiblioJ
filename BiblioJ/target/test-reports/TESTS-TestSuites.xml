@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="1" failures="0" hostname="andre-1000H" id="0" name="InitialisationServiceIntegrationSpec" package="biblioj" tests="1" time="0.416" timestamp="2014-06-08T17:52:24">
+      <properties />
+
+      <testcase classname="biblioj.InitialisationServiceIntegrationSpec" name="test" time="0.344">
+          <error message="Cannot invoke method serviceMethod() on null object" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke method serviceMethod() on null object
+	at biblioj.InitialisationServiceIntegrationSpec.setUp(InitialisationServiceIntegrationSpec.groovy:30)
+</error>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from test--
+7up OK
+true
+0
+]]></system-out>
+
+      <system-err><![CDATA[--Output from test--
+]]></system-err>
+
+  </testsuite>
+</testsuites>

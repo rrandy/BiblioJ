@@ -1,0 +1,18 @@
+Testsuite: biblioj.InitialisationServiceIntegrationSpec
+Tests run: 1, Failures: 0, Errors: 1, Time elapsed: 0,416 sec
+------------- Standard Output ---------------
+--Output from test--
+7up OK
+true
+0
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from test--
+------------- ---------------- ---------------
+
+Testcase: test took 0,343 sec
+	Caused an ERROR
+Cannot invoke method serviceMethod() on null object
+java.lang.NullPointerException: Cannot invoke method serviceMethod() on null object
+	at biblioj.InitialisationServiceIntegrationSpec.setUp(InitialisationServiceIntegrationSpec.groovy:30)
+

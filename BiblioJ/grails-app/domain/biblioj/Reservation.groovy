@@ -12,4 +12,9 @@ class Reservation {
 		code(blank:false)
 		dateReservation(blank:false)
 	}
+	
+	static mapping = {
+		livres fetch : "join"
+	}
+	
 }

@@ -14,4 +14,9 @@ class Auteur {
 		nom(blank:false)
 		prenom(blank:false)
 	}
+	
+	static mapping = {
+		livres fetch : "join"
+	}
+	
 }
